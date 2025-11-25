@@ -113,7 +113,7 @@ export default function Home() {
   ];
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-8">
+    <main className="min-h-screen bg-linear-to-br from-gray-50 to-gray-100 p-8">
       <div className="max-w-7xl mx-auto">
         <header className="mb-12 text-center">
           <h1 className="text-5xl font-bold text-gray-800 mb-4">
@@ -142,7 +142,7 @@ export default function Home() {
                 className="group block"
               >
                 <div className="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-xl hover:-translate-y-1">
-                  <div className={`w-16 h-16 bg-gradient-to-br ${category.color} rounded-xl flex items-center justify-center text-3xl mb-4`}>
+                  <div className={`w-16 h-16 bg-linear-to-br ${category.color} rounded-xl flex items-center justify-center text-3xl mb-4`}>
                     {category.icon}
                   </div>
                   
@@ -191,7 +191,7 @@ export default function Home() {
                 className="group block"
               >
                 <div className="bg-white rounded-2xl shadow-md p-6 transition-all hover:shadow-xl hover:-translate-y-1">
-                  <div className={`w-16 h-16 bg-gradient-to-br ${template.color} rounded-xl flex items-center justify-center text-3xl mb-4`}>
+                  <div className={`w-16 h-16 bg-linear-to-br ${template.color} rounded-xl flex items-center justify-center text-3xl mb-4`}>
                     {template.icon}
                   </div>
                   
