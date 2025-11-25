@@ -201,25 +201,25 @@ export default function BadgesPage() {
       name: 'Gradient Badges',
       component: (
         <div className="flex flex-wrap gap-2">
-          <span className="px-3 py-1 bg-gradient-to-br from-purple-500 to-pink-500 text-white rounded-full text-sm font-medium">
+          <span className="px-3 py-1 bg-linear-to-br from-purple-500 to-pink-500 text-white rounded-full text-sm font-medium">
             Premium
           </span>
-          <span className="px-3 py-1 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full text-sm font-medium">
+          <span className="px-3 py-1 bg-linear-to-r from-blue-500 to-cyan-500 text-white rounded-full text-sm font-medium">
             Pro
           </span>
-          <span className="px-3 py-1 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full text-sm font-medium">
+          <span className="px-3 py-1 bg-linear-to-r from-orange-500 to-red-500 text-white rounded-full text-sm font-medium">
             Hot
           </span>
         </div>
       ),
       code: `<div className="flex gap-2">
-  <span className="px-3 py-1 bg-gradient-to-br from-purple-500 to-pink-500 text-white rounded-full text-sm font-medium">
+  <span className="px-3 py-1 bg-linear-to-br from-purple-500 to-pink-500 text-white rounded-full text-sm font-medium">
     Premium
   </span>
-  <span className="px-3 py-1 bg-gradient-to-r from-blue-500 to-cyan-500 text-white rounded-full text-sm font-medium">
+  <span className="px-3 py-1 bg-linear-to-r from-blue-500 to-cyan-500 text-white rounded-full text-sm font-medium">
     Pro
   </span>
-  <span className="px-3 py-1 bg-gradient-to-r from-orange-500 to-red-500 text-white rounded-full text-sm font-medium">
+  <span className="px-3 py-1 bg-linear-to-r from-orange-500 to-red-500 text-white rounded-full text-sm font-medium">
     Hot
   </span>
 </div>`
@@ -227,7 +227,7 @@ export default function BadgesPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-8">
+    <main className="min-h-screen bg-linear-to-br from-gray-50 to-gray-100 p-8">
       <div className="max-w-7xl mx-auto">
         <Link 
           href="/" 

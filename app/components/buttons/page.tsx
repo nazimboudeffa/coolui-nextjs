@@ -58,11 +58,11 @@ export default function ButtonsPage() {
       id: 'gradient-button',
       name: 'Gradient Button',
       component: (
-        <button className="px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all font-medium">
+        <button className="px-6 py-2 bg-linear-to-r from-purple-500 to-pink-500 text-white rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all font-medium">
           Gradient
         </button>
       ),
-      code: `<button className="px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all font-medium">
+      code: `<button className="px-6 py-2 bg-linear-to-r from-purple-500 to-pink-500 text-white rounded-lg hover:from-purple-600 hover:to-pink-600 transition-all font-medium">
   Gradient
 </button>`
     },
@@ -123,7 +123,7 @@ export default function ButtonsPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-8">
+    <main className="min-h-screen bg-linear-to-br from-gray-50 to-gray-100 p-8">
       <div className="max-w-7xl mx-auto">
         <Link 
           href="/" 

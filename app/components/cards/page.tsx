@@ -37,7 +37,7 @@ export default function CardsPage() {
       name: 'Card with Image',
       component: (
         <div className="bg-white rounded-xl shadow-lg overflow-hidden max-w-sm w-full">
-          <div className="h-48 bg-gradient-to-r from-blue-400 to-purple-500"></div>
+          <div className="h-48 bg-linear-to-r from-blue-400 to-purple-500"></div>
           <div className="p-6">
             <h3 className="text-xl font-bold text-gray-800 mb-2">Image Card</h3>
             <p className="text-gray-600">Card with a colorful header image.</p>
@@ -45,7 +45,7 @@ export default function CardsPage() {
         </div>
       ),
       code: `<div className="bg-white rounded-xl shadow-lg overflow-hidden max-w-sm">
-  <div className="h-48 bg-gradient-to-r from-blue-400 to-purple-500"></div>
+  <div className="h-48 bg-linear-to-r from-blue-400 to-purple-500"></div>
   <div className="p-6">
     <h3 className="text-xl font-bold text-gray-800 mb-2">Image Card</h3>
     <p className="text-gray-600">Card with a colorful header image.</p>
@@ -76,12 +76,12 @@ export default function CardsPage() {
       id: 'gradient-card',
       name: 'Gradient Card',
       component: (
-        <div className="p-6 bg-gradient-to-br from-pink-500 to-orange-500 rounded-xl shadow-lg max-w-sm w-full">
+        <div className="p-6 bg-linear-to-br from-pink-500 to-orange-500 rounded-xl shadow-lg max-w-sm w-full">
           <h3 className="text-xl font-bold text-white mb-2">Gradient Card</h3>
           <p className="text-white/90">A card with a beautiful gradient background.</p>
         </div>
       ),
-      code: `<div className="p-6 bg-gradient-to-br from-pink-500 to-orange-500 rounded-xl shadow-lg max-w-sm">
+      code: `<div className="p-6 bg-linear-to-br from-pink-500 to-orange-500 rounded-xl shadow-lg max-w-sm">
   <h3 className="text-xl font-bold text-white mb-2">Gradient Card</h3>
   <p className="text-white/90">A card with a beautiful gradient background.</p>
 </div>`
@@ -91,7 +91,7 @@ export default function CardsPage() {
       name: 'Profile Card',
       component: (
         <div className="p-6 bg-white rounded-xl shadow-lg border border-gray-200 max-w-sm w-full text-center">
-          <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
+          <div className="w-20 h-20 bg-linear-to-br from-purple-500 to-pink-500 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
             JD
           </div>
           <h3 className="text-xl font-bold text-gray-800 mb-1">John Doe</h3>
@@ -102,7 +102,7 @@ export default function CardsPage() {
         </div>
       ),
       code: `<div className="p-6 bg-white rounded-xl shadow-lg border border-gray-200 max-w-sm text-center">
-  <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
+  <div className="w-20 h-20 bg-linear-to-br from-purple-500 to-pink-500 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
     JD
   </div>
   <h3 className="text-xl font-bold text-gray-800 mb-1">John Doe</h3>
@@ -129,7 +129,7 @@ export default function CardsPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 p-8">
+    <main className="min-h-screen bg-linear-to-br from-gray-50 to-gray-100 p-8">
       <div className="max-w-7xl mx-auto">
         <Link 
           href="/" 
