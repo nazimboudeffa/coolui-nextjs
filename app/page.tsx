@@ -192,7 +192,7 @@ export default function Home() {
             >
               GitHub
             </a>
-            {' '}— it helps a lot!
+            {' '}— THX!
           </p>
         </div>
       </div>
