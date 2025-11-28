@@ -185,7 +185,7 @@ export default function Home() {
           <p className="text-sm md:text-base">
             If you like CoolUI, give us a ⭐ on{' '}
             <a 
-              href="https://github.com/nazimboudeffa/coolui-nextjs" 
+              href="https://github.com/nazimboudeffa" 
               target="_blank" 
               rel="noopener noreferrer"
               className="font-semibold underline hover:text-yellow-300 transition-colors"
